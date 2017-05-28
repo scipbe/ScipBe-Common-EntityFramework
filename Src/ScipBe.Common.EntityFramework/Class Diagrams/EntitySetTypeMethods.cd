@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="ScipBe.Common.EntityFramework.EntityFrameworkExtensionMethods">
+    <Position X="0.5" Y="0.5" Width="7.25" />
+    <Members>
+      <Method Name="ConvertBuiltInTypeKind" Hidden="true" />
+      <Method Name="Dump" Hidden="true" />
+      <Method Name="DumpAsHtml" Hidden="true" />
+      <Method Name="ObjectStateEntryToString" Hidden="true" />
+      <Method Name="ObjectToString" Hidden="true" />
+      <Method Name="ProcessNavigationProperties" Hidden="true" />
+      <Method Name="ProcessProperties" Hidden="true" />
+      <Method Name="ToMetadata" Hidden="true" />
+      <Method Name="ToTraceString" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEQQAAAAAAAEAgEAAkAAAAAQAAQAAAAAAQAE=</HashCode>
+      <FileName>DumpObjectState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

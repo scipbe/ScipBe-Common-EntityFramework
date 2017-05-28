@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="ScipBe.Common.EntityFramework.EntityFrameworkExtensionMethods">
+    <Position X="0.5" Y="6" Width="7.75" />
+    <Members>
+      <Method Name="Dump" Hidden="true" />
+      <Method Name="DumpAsHtml" Hidden="true" />
+      <Method Name="GetEntitySet" Hidden="true" />
+      <Method Name="GetEntitySetName" Hidden="true" />
+      <Method Name="GetEntityTypeName" Hidden="true" />
+      <Method Name="ObjectStateEntryToString" Hidden="true" />
+      <Method Name="ObjectToString" Hidden="true" />
+      <Method Name="ToTraceString" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEQQAAAAAAAEAgEAAkAAAAAQAAQAAAAAAQAE=</HashCode>
+      <FileName>DumpObjectState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScipBe.Common.EntityFramework.Metadata">
+    <Position X="2" Y="0.5" Width="2.75" />
+    <AssociationLine Name="NavigationProperties" Type="ScipBe.Common.EntityFramework.MetaNavigationProperty">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-3.734" Y="0.102" Height="0.182" Width="3.589" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Properties" Type="ScipBe.Common.EntityFramework.MetaProperty">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.079" Y="0.112" Height="0.182" Width="2.118" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="BuiltInTypeKind" Type="ScipBe.Common.EntityFramework.MetaBuiltInTypeKind" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="0.934" />
+        <Point X="8.125" Y="0.934" />
+        <Point X="8.125" Y="1.75" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="2.112" Y="0.922" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>ToMetadataClasses.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="BuiltInTypeKind" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="NavigationProperties" />
+      <Property Name="Properties" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="ScipBe.Common.EntityFramework.MetaNavigationProperty">
+    <Position X="3.5" Y="1.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAABABAAABAA=</HashCode>
+      <FileName>ToMetadataClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScipBe.Common.EntityFramework.MetaProperty">
+    <Position X="0.5" Y="1.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAIAAAIQAAAAEAAAAAQAAAAACAAA=</HashCode>
+      <FileName>ToMetadataClasses.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Type" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ScipBe.Common.EntityFramework.MetaType">
+    <Position X="0.5" Y="4.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAABAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>ToMetadataClasses.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="ScipBe.Common.EntityFramework.MetaBuiltInTypeKind">
+    <Position X="6.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAoAAAAAAAEAAAQAAAAAAAAAAAAAAIABA=</HashCode>
+      <FileName>ToMetadataClasses.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
