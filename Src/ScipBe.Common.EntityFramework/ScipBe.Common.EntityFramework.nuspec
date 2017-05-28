@@ -4,7 +4,7 @@
     <id>ScipBe.Common.EntityFramework</id>
     <version>1.0</version>
     <authors>Stefan Cruysberghs</authors>
-    <description>The ScipBe.Common.EntityFramework namespace contains a set of extension methods which can be used to extend the standard ADO.NET Entity Framework classes (ObjectQuery, EntityObject, ObjectStateManager, ...) in .NET 3.5.</description>
+    <description>Entity Framework metadata and trace extensions for .NET 3.5</description>
     <language>en-US</language>
     <projectUrl>https://github.com/scipbe/ScipBe-Common-EntityFramework</projectUrl>
     <licenseUrl>https://github.com/scipbe/ScipBe-Common-EntityFramework/blob/master/LICENSE</licenseUrl>
