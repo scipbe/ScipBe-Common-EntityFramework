@@ -2,13 +2,13 @@
 <package>
   <metadata>
     <id>ScipBe.Common.EntityFramework</id>
-    <version>1.0</version>
+    <version>1.01</version>
     <authors>Stefan Cruysberghs</authors>
-    <description>Entity Framework metadata and trace extensions for .NET 3.5</description>
+    <description>Entity Framework metadata, trace and dump extensions for .NET 3.5</description>
     <language>en-US</language>
     <projectUrl>https://github.com/scipbe/ScipBe-Common-EntityFramework</projectUrl>
     <licenseUrl>https://github.com/scipbe/ScipBe-Common-EntityFramework/blob/master/LICENSE</licenseUrl>
-	<iconUrl>https://github.com/scipbe/ScipBe-Common-EntityFramework/blob/master/Doc/Images/Icon.png</iconUrl>
+	<iconUrl>https://github.com/scipbe/ScipBe-Common-EntityFramework/blob/master/Doc/Images/ScipBe.Common.EntityFramework.png</iconUrl>
 	<releaseNotes>First version for Entity Framework .NET 3.5 (December 2008)</releaseNotes>
 	<tags>dotnet adonet entityframework ef metadata objectquery entityobject objectstatemanager</tags>
   </metadata>

@@ -1,4 +1,4 @@
-![Logo](Doc/Images/ScipBe.png) 
+![Logo](Doc/Images/ScipBe.Common.EntityFramework.png) 
 # ScipBe-Common-EntityFramework
 ### Entity Framework Extensions
 
